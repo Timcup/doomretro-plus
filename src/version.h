@@ -26,36 +26,36 @@
 #pragma once
 #define DOOMRETRO_VERSION               6,0,1,0
 #define DOOMRETRO_VERSIONSTRING         "6.0.1"
-#define DOOMRETRO_NAMEANDVERSIONSTRING  "DOOM Retro v6.0.1 (Unofficial Patch 1)"
+#define DOOMRETRO_NAMEANDVERSIONSTRING  "DOOM Retro+ v6.0.1"
 #define DOOMRETRO_VERSIONSTRING_5_7_2   "5.7.2"
 #define DOOMRETRO_SAVEGAMEVERSION_3_6   "DOOM Retro v3.6"
 #define DOOMRETRO_SAVEGAMEVERSION_5_7   "DOOM Retro v5.7"
 #define DOOMRETRO_SAVEGAMEVERSION_5_7_1 "DOOM Retro v5.7.1"
 #define DOOMRETRO_SAVEGAMEVERSION_5_7_2 "DOOM Retro v5.7.2"
 #define DOOMRETRO_SAVEGAMEVERSION_6_0   "DOOM Retro v6.0"
-#define DOOMRETRO_SAVEGAMEVERSION_6_0_UP1 "DOOM Retro v6.0.1 (Unofficial Patch 1)"
-#define DOOMRETRO_SAVEGAMEVERSIONSTRING DOOMRETRO_SAVEGAMEVERSION_6_0_UP1
+#define DOOMRETRO_SAVEGAMEVERSION_6_0_1 "DOOM Retro+ v6.0.1"
+#define DOOMRETRO_SAVEGAMEVERSIONSTRING DOOMRETRO_SAVEGAMEVERSION_6_0_1
 #define DOOMRETRO                       "doomretro"
 #define DOOMRETRO_AUTOLOADFOLDER        "autoload"
-#define DOOMRETRO_BLOGURL               "https://www.doomretro.com"
+#define DOOMRETRO_BLOGURL               "https://timcup.neocities.org/doomretroplus"
 #define DOOMRETRO_CONFIGFILE            "doomretro.cfg"
 #define DOOMRETRO_CONSOLEFOLDER         "console"
-#define DOOMRETRO_COPYRIGHT             "Copyright \xA9 2013\x962026 by Brad Harding. All rights reserved. Unofficial patch by Timcup"
+#define DOOMRETRO_COPYRIGHT             "Copyright (c) 1993-1997 id Software, Inc. All rights reserved."
 #define DOOMRETRO_CRASHFOLDER           "crash"
 #define DOOMRETRO_CREATOR               "Timcup"
-#define DOOMRETRO_CREATORANDEMAIL       "Brad Harding (brad@doomretro.com)"
-#define DOOMRETRO_FILENAME              "doomretro.exe"
+#define DOOMRETRO_CREATORANDEMAIL       "Timcup (thecupsupercuphead@gmail.com)"
+#define DOOMRETRO_FILENAME              "doomretroplus.exe"
 #define DOOMRETRO_HOMEOFCREATOR         "United States of Burgerland"
-#define DOOMRETRO_ICONPATH              "..\\res\\doomretro.ico"
-#define DOOMRETRO_LATESTRELEASEPATH     L"/repos/bradharding/doomretro/releases/latest"
+#define DOOMRETRO_ICONPATH              "..\\res\\doomretroplus.ico"
+#define DOOMRETRO_LATESTRELEASEPATH     L"/repos/Timcup/doomretro-plus/releases/latest"
 #define DOOMRETRO_LICENSE               "GNU General Public License v3.0"
 #define DOOMRETRO_LICENSEURL            "https://github.com/bradharding/doomretro/wiki/License"
 #define DOOMRETRO_MUTEX                 "DOOMRETRO-CC4F1071-8B24-4E91-A207-D792F39636CD"
-#define DOOMRETRO_NAME                  "DOOM Retro"
-#define DOOMRETRO_RELEASENOTESURL       "https://github.com/bradharding/doomretro/releases/tag/v" \
+#define DOOMRETRO_NAME                  "DOOM Retro+"
+#define DOOMRETRO_RELEASENOTESURL       "https://github.com/Timcup/doomretro-plus/releases/releases/v" \
                                         DOOMRETRO_VERSIONSTRING
-#define DOOMRETRO_RESOURCEWAD           "doomretro.wad"
-#define DOOMRETRO_SAVEGAME              "doomretro%i.save"
+#define DOOMRETRO_RESOURCEWAD           "dmrplus.wad"
+#define DOOMRETRO_SAVEGAME              "dmrp_%i.save"
 #define DOOMRETRO_SAVEGAMESFOLDER       "savegames"
 #define DOOMRETRO_SCREENSHOTSFOLDER     "screenshots"
 #define DOOMRETRO_TRADEMARKS            "DOOM is a registered trademark of id Software LLC, a ZeniMax " \
@@ -63,8 +63,8 @@
                                         "without permission. All other trademarks are the property of " \
                                         "their respective holders. DOOM Retro is in no way affiliated " \
                                         "with nor endorsed by id Software."
-#define DOOMRETRO_WIKINAME              "DOOM Retro Wiki"
-#define DOOMRETRO_WIKIURL               "https://github.com/bradharding/doomretro/wiki"
+#define DOOMRETRO_WIKINAME              "DOOM Retro+ Wiki"
+#define DOOMRETRO_WIKIURL               "https://timcup.neocities.org/doomretroplus/wiki"
 #if defined(_WIN32)
 void D_CheckForNewVersion(void);
 void D_OpenURLInBrowser(const char* url, const char* warning);
