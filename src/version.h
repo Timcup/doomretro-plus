@@ -35,7 +35,7 @@
 #define DOOMRETRO_SAVEGAMEVERSION_6_0   "DOOM Retro v6.0"
 #define DOOMRETRO_SAVEGAMEVERSION_6_0_1 "DOOM Retro+ v6.0.1"
 #define DOOMRETRO_SAVEGAMEVERSIONSTRING DOOMRETRO_SAVEGAMEVERSION_6_0_1
-#define DOOMRETRO                       "doomretro"
+#define DOOMRETRO                       "doomretroplus"
 #define DOOMRETRO_AUTOLOADFOLDER        "autoload"
 #define DOOMRETRO_BLOGURL               "https://timcup.neocities.org/doomretroplus"
 #define DOOMRETRO_CONFIGFILE            "doomretro.cfg"
