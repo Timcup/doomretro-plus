@@ -23,12 +23,19 @@ static void HandleError(int errcode, const char *message) {}
 void DISCORD_Init(void)
 {
     SDL_Delay(3000);
-    DiscordEventHandlers handlers = {0};
-    handlers.ready        = HandleReady;
+    DiscordEventHandlers handlers = { 0 };
+    handlers.ready = HandleReady;
     handlers.disconnected = HandleDisconnected;
-    handlers.errored      = HandleError;
+    handlers.errored = HandleError;
 
     Discord_Initialize(DISCORD_APP_ID, &handlers, 1, NULL);
+
+    DiscordRichPresence presence = { 0 };
+    presence.details = "Searching for IWAD...";
+    presence.largeImageKey = "icon_512x512";
+    presence.largeImageText = "DOOM Retro+";
+    Discord_UpdatePresence(&presence);
+
     startTimestamp = (int64_t)time(NULL);
 }
 
